@@ -126,7 +126,7 @@ Use `firejail` as a security sandbox to join torjail network namespace
 `sudo torjail -f thunderbird`
 
 ## WWW
-https://torjail.github.io/
+https://boards.420chan.org/
 
 ## AUTHOR
 This man page has been written by Patrick Schleizer (adrelanos@riseup.net) and lesion (lesion@autistici.org)

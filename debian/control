@@ -1,0 +1,18 @@
+Source: torjail
+Section: misc
+Priority: optional
+Maintainer: Patrick Schleizer <adrelanos@riseup.net>
+Build-Depends: debhelper (>= 9), ruby-ronn
+Homepage: https://github.com/annoyinganongurl/torjail.git
+Vcs-Browser: https://github.com/annoyinganongurl/torjail.git
+Vcs-Git: https://github.com/annoyinganongurl/torjail.git
+Standards-Version: 3.9.8
+
+Package: torjail
+Architecture: all
+Depends: ${misc:Depends}
+Description: more secure way to force programs to exclusively use Tor network
+ Simple command line utility that easily creates a separated network namespace
+ (using ip netns) with its own network interface and a link to the host
+ interface with some iptables rules (on host) that force traffic generated from
+ inside torjail to only exit via Tor (including DNS).
