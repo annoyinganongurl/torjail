@@ -1,7 +1,7 @@
 Source: torjail
 Section: misc
 Priority: optional
-Maintainer: Patrick Schleizer <adrelanos@riseup.net>
+Maintainer: Your friendly anons
 Build-Depends: debhelper (>= 9), ruby-ronn
 Homepage: https://github.com/annoyinganongurl/torjail.git
 Vcs-Browser: https://github.com/annoyinganongurl/torjail.git
